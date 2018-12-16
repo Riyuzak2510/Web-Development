@@ -7,6 +7,7 @@ function downloadFile(url, downloaded) {
 
     setTimeout(function () {
         let filePath = "C:\\Downloads\\" + url.split('/').pop()
+
         console.log("File was downloaded to: " + filePath)
         downloaded(filePath)
     }, 3000)
