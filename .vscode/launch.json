@@ -9,7 +9,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/new_keyword_2.js"
+            "program": "${workspaceFolder}/prototypes.js"
         }
     ]
 }
